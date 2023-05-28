@@ -7,6 +7,7 @@
         <tr>
           <td><img src="http://ddragon.leagueoflegends.com/cdn/{{ $version }}/img/champion/{{ $champion['id'] }}.png" alt="" width="50"></td>
           <td>{{ $champion['name'] }}</td>
+          <td>{{ $champion['partype'] }}</td>
           <td>
             @foreach ($champion['tags'] as $tag)
                 {{ $tag }}
